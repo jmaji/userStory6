@@ -1,0 +1,154 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: top;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.right {
+  float: right;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<style>
+body{
+  background-image: url("back.jpg");
+  padding: 25px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+</style>
+<div class="header">
+  <h1>XYZ CONSULTANCY</h1>
+  <p>New Delhi-110001</p>
+
+</div>
+<img src="doctor1.jpg"/>
+<div class="topnav">
+  <a href="main.html">MAIN</a>
+  <a href="bookappointment.html">BOOK AN APPOINTMENT</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="strap.html">SCHEDULE AN APPOINTMENT</a>
+  <a href="social.html" style="float:right">CONNECT</a>
+</div>
+
+<div class="row">
+  <div class="column"style="float:center">
+    <h2>WE ARE COMMITTED TO HEALTH</h2>
+    <p>By having an online appointment booking option, people can reserve appointment easily without wasting any time</p>
+  </div>
+  
+  <div class=".right" style="float:left">
+    <h2>PROFFESIONAL FAMILY HEATH CARE SERVICE</h2>
+    <p>Feel free to contact us.</p>
+    </div>
+  
+  <div class=".leftcolumn" style="float:right">
+    <h2>EMERGENCY SERVICE </h2>
+    <p>1800-XXXX-XXXX-0000</div>
+</div>
+
+<div class="footer">
+  <h2>Welcome to our website</h2>
+</div>
+
+</body>
+</html>
